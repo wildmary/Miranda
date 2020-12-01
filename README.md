@@ -26,6 +26,6 @@
 
 
 
-Сравнительная таблица подобных проектов: https://docs.google.com/spreadsheets/d/102RT7oF5r2g-y-8Vynunx-zXpV94ytiWN8NtsNm7eb8/edit#gid=0
+[Сравнительная таблица](https://docs.google.com/spreadsheets/d/102RT7oF5r2g-y-8Vynunx-zXpV94ytiWN8NtsNm7eb8/edit#gid=0) подобных проектов
 
-Дополнительные источники: https://docs.google.com/document/d/15ihfQrUZh-y-RrbGnoY1cdio45hEpYlapW5rDzkTDIk/edit
+[Дополнительные источники](https://docs.google.com/document/d/15ihfQrUZh-y-RrbGnoY1cdio45hEpYlapW5rDzkTDIk/edit)
