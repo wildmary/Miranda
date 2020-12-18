@@ -26,6 +26,8 @@
  - [12 ноября 2020](https://docs.google.com/presentation/d/1haaeTLLI3SGqRW0umbjoOzRUe768sCNkAdSrqbfuuzQ/edit#slide=id.p)
   
  - [1 декабря 2020](https://docs.google.com/presentation/d/1HRq3H8qEpantTpjgahlse-Q9di_gYoIlBIW6poY-a4Y/edit#slide=id.gadea709fcf_0_0)
+ 
+ - [18 декабря 2020](https://docs.google.com/presentation/d/13jhSip3RHgTftXjcYFCO8z2DUi1dzzitepKFGLwVmnw/edit#slide=id.ga938865bba_2_0)
 
 
 
