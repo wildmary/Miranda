@@ -28,6 +28,8 @@
  - [1 декабря 2020](https://docs.google.com/presentation/d/1HRq3H8qEpantTpjgahlse-Q9di_gYoIlBIW6poY-a4Y/edit#slide=id.gadea709fcf_0_0)
  
  - [18 декабря 2020](https://docs.google.com/presentation/d/13jhSip3RHgTftXjcYFCO8z2DUi1dzzitepKFGLwVmnw/edit#slide=id.ga938865bba_2_0)
+ 
+ - [19 января 2020](https://docs.google.com/presentation/d/15aXKg76TNn43LPP8XKq-WbwGlLQANlWL9b7Dm9_f_WI/edit#slide=id.gb72ffedf3a_0_74)
 
 
 
