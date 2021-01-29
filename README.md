@@ -6,7 +6,7 @@
 
 [Разметка](https://docs.google.com/spreadsheets/d/1QXHK2u0FbIGMnvGPKTol2ce8MaIlzR2ysZ8e-lvHS74/edit#gid=0) путешествия по дням на основе журнала Молини
 
-[Первый вариант карты](https://github.com/wildmary/Miranda/blob/main/Map.html)
+[Первый вариант карты](https://yapolina.github.io/Miranda/Map)
 
 ## Предполагаемая конечная цель проекта
 - Географическая информационная система по маршруту экспедиции «Леандера» 1805-1807 гг.
