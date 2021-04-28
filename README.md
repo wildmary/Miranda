@@ -37,6 +37,8 @@
 
  - [17 марта 2021](https://docs.google.com/presentation/d/1MsgADPs1-3vzkBA3MFMIlJXTerzVzdnd2Lw0VdLPisk/edit#slide=id.gc87fb5c437_0_0)
 
+ - [28 апреля 2021](https://docs.google.com/presentation/d/1B_U0LLLHjgTMIK4eZvnfwJOjbXfFYHa08iLfiDRg1o0/edit#slide=id.gd399002cf4_0_0)
+
 
 
 
