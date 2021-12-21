@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock %}
+{% block content %}
+    <h4>EN</h4>
+    <h6>Hello! This is the project of MA students taking the course Digital Humanities at HSE.</h6>
+    <p>We are:</p>
+    <ul>
+    <li>Polina Yanina</li>
+    <li>Maria Levchenko</li>
+    <li>Anastasia Malakhova</li>
+    <li>Victoria Glazunova</li>
+    <li>Elena Basova</li>
+    </ul>
+    <br>
+    <h4>RU</h4>
+	<h6>Мы команда студентов программы "Цифровые методы в гуманитарных науках" НИУ ВШЭ</h6>
+	<p> О нашем проекте</p>
+	<p> Кураторы:</p>
+	<ul>
+    <li>Андрей Исэров</li>
+    <li>Анастасия Бонч-Осмоловская</li>
+    <li>Софья Гаврилова</li>
+    </ul>
+    <p>Участники:</p>
+    <ul>
+    <li>Полина Янина</li>
+    <li>Мария Левченко</li>
+    <li>Анастасия Малахова</li>
+    <li>Виктория Глазунова</li>
+    <li>Елена Басова</li>
+    </ul>
+	{% for post in data %}
+            <h2>{{ post[0] }}</h2>
+            <h4>{{ post[1] }}</h4>
+            <h6>Modern date: {{ post[2] }}</h6>
+            {% if post[5] !='' %}
+            <p><b>Weather:</b>  {{ post[5] }}</p>
+            {% endif %}
+            {% if post[6] !='' %}
+            <p><b>Wind:</b>  {{ post[6] }}</p>
+            {% endif %}
+            {% if post[7] !='' %}
+            <p> {{ post[7] }}</p>
+            {% else %}
+            <p>No entry.</p>
+            {% endif %}
+        <hr>
+    {% endfor %}
+{% endblock %}

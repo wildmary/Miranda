@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}Diary of the Expedition{% endblock %}
+{% block content %}
+    <h2>Search the diary</h2>
+    <form>
+      <!--<label for="q">Search:</label>-->
+      <input type="text" type="search" placeholder="Search"  name="q" value="{{ q }}" class="search-field">  <!--type="text"-->
+      <!--<button type="submit">Search</button>-->
+      <button type="submit" class="search-button">
+          <img src="/static/img/search.png"></button>
+    </form><form method="get" action="/diary">    <button type="submit" class="clear-button">Clear</button></form>
+
+    <hr>
+    {% if q !='' %}
+    <h2>Result:</h2>
+    {% endif %}
+    <ul>
+    {% if q !='' %}
+    {% for post in result %}
+            <h3>{{ post[0] }}</h3>
+            <h4>{{ post[1] }}</h4>
+            <h6>Modern date: {{ post[2] }}</h6>
+            {% if post[5] !='' %}
+            <p><b>Weather:</b>  {{ post[5] }}</p>
+            {% endif %}
+            {% if post[6] !='' %}
+            <p><b>Wind:</b>  {{ post[6] }}</p>
+            {% endif %}
+            {% if post[7] !='' %}
+            <p> {{ post[7] }}</p>
+            {% else %}
+            <p>No entry.</p>
+            {% endif %}
+        <hr>
+    {% endfor %}
+    {% endif %}
+    </ul>
+    {% if q =='' %}
+	{% for post in data %}
+            <h2>{{ post[0] }}</h2>
+            <h4>{{ post[1] }}</h4>
+            <h6>Modern date: {{ post[2] }}</h6>
+            {% if post[5] !='' %}
+            <p><b>Weather:</b>  {{ post[5] }}</p>
+            {% endif %}
+            {% if post[6] !='' %}
+            <p><b>Wind:</b>  {{ post[6] }}</p>
+            {% endif %}
+            {% if post[7] !='' %}
+            <p> {{ post[7] }}</p>
+            {% else %}
+            <p>No entry.</p>
+            {% endif %}
+        <hr>
+    {% endfor %}
+     {% endif %}
+{% endblock %}
+<!--{{ pagination.links }}-->
