@@ -1,0 +1,42 @@
+body {
+  background: #FFFEFA;
+}
+
+.search-field {
+  width: 25%;
+  padding: 10px 35px 10px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: 1px double #1B46B5;
+}
+
+
+
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -13px;
+}
+
+.search-button img {
+  width: 60px;
+  height: 70px;
+  object-fit: contain;
+  vertical-align: -90%;
+}
+
+.clear-button {
+  width: 7%;
+  border-radius: 14px;
+  background: white;
+  color: black;
+  border: 0.5px solid #1B46B5;
+  margin-top: 10px;
+}

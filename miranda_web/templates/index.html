@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %} Miranda {% endblock %}
+{% block content %}
+	<div class="pb-3">
+		<div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr;">
+			<div>
+			    <h3>The restored route of Francisco de Miranda's expedition <br> in 1805-1807</h3>
+			    <h4>based on the diary of Thomas Molini,<br>his secretary</h4>
+			    <p>Ship: Leander<br>Route: London - New York - London</p>
+                <br>
+                <h6>RU</h6>
+				<h6>Восстановленный маршрут экспедиции на основе дневника Томаса Молини</h6>
+				<p></p>
+				<p>
+				Условные обозначения:<br>
+
+				– запись в дневнике Т. Молини с указанными координатами<br>
+				– запись в дневнике Т. Молини с восстановленными координатами<br>
+				</p>
+			</div>
+			<div class="bg-light border rounded-3 d-flex overflow-hidden" style="height: 480px;">
+				<iframe class="overflow-hidden flex-grow-1" src="/map" height="480"></iframe>
+			</div>
+		</div>
+	</div>
+{% endblock %}
